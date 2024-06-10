@@ -5855,12 +5855,12 @@ path {
 }
 @media (max-width: 1599px) {
   .main-header--five .main-header__cart {
-    margin-left: 80px;
+    margin-left: 10px;
   }
 }
 @media (max-width: 1599px) {
   .main-header--five .main-header__cart {
-    margin-right: 50px;
+    margin-right: 10px;
   }
 }
 @media (max-width: 390px) {
