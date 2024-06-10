@@ -5745,6 +5745,7 @@ path {
 .main-header--five::after {
   display: none;
 }
+/*nav css*/
 @media (min-width: 1200px) {
   .main-header--five .container {
     max-width: 100%;
@@ -5788,14 +5789,14 @@ path {
   display: none;
 }
 .main-header--five .main-header__nav {
-  margin-right: 60px;
+  margin-right: 150px;
 }
 .main-header--five .main-menu .main-menu__list > li + li {
   margin-left: 42px;
 }
 @media (max-width: 1599px) {
   .main-header--five .main-menu .main-menu__list > li + li {
-    margin-left: 38px;
+    margin-left: 80px;
   }
 }
 .main-header--five .main-menu .main-menu__list > li {
@@ -5854,7 +5855,12 @@ path {
 }
 @media (max-width: 1599px) {
   .main-header--five .main-header__cart {
-    margin-left: 30px;
+    margin-left: 80px;
+  }
+}
+@media (max-width: 1599px) {
+  .main-header--five .main-header__cart {
+    margin-right: 50px;
   }
 }
 @media (max-width: 390px) {
@@ -5862,6 +5868,9 @@ path {
     margin-left: 25px;
   }
 }
+
+/*nav css*/
+
 .main-header--five .main-header__button {
   margin-left: 60px;
   padding: 16.5px 19.5px;
