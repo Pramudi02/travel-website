@@ -5979,6 +5979,14 @@ path {
   background-color: var(--trevlo-base, #FF5956);
 }
 
+/*phone text disappear when it comes to mobile viwe*/
+@media only screen and (max-width: 768px) {
+  .about-six__phone__text {
+      display: none;
+  }
+}
+
+
 .main-menu {
   /* after third level no menu */
 }
