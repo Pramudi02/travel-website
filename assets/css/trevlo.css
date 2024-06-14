@@ -472,8 +472,9 @@ path {
 
 .container-fluid,
 .container {
-  padding-left: 15px;
+  padding-left: 100px;
   padding-right: 15px;
+  
 }
 
 @media (min-width: 1200px) {
