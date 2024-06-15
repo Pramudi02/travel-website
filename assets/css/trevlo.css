@@ -15237,7 +15237,7 @@ body.megamenu-popup-active .mobile-nav__content {
   z-index: 1;
 }
 .destination-five__card__top {
-  min-height: 505px;
+  min-height: 300px;
   position: relative;
   padding: 30px;
   cursor: pointer;
