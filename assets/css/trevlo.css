@@ -17086,7 +17086,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 
 .footer-widget--contact {
-  padding-right: 104px;
+  padding-right: 10px;
   padding-left: 10px;
 }
 @media (max-width: 1199px) {
@@ -17771,6 +17771,7 @@ li:hover .footer-three__contact__list__icon {
   right: 0;
   animation: rightToLeft 2500ms linear infinite;
 }
+
 
 /*--------------------------------------------------------------
 # 404 Error
