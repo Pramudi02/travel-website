@@ -13732,6 +13732,38 @@ body.megamenu-popup-active .mobile-nav__content {
   color: var(--trevlo-base, #FF5956);
 }
 
+
+
+.contact-link {
+  color: #000;
+  text-decoration: none;
+  transition: color 0.3s;
+  display: block; /* Ensures each email is on a separate line */
+}
+
+.contact-link:hover {
+  color: #FF6F61;
+  text-decoration: underline;
+}
+
+.product__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  border: 1px solid #ddd; /* Optional: Add border for better visual separation */
+  padding: 20px; /* Adjust padding as needed */
+}
+
+.product__item-content {
+  margin-top: 10px; /* Adjust as needed for spacing */
+}
+.product__item-price-box p {
+  text-align: center;
+}
+
+
 /*--------------------------------------------------------------
 # Products
 --------------------------------------------------------------*/
@@ -17142,6 +17174,11 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .footer-widget__info li a:hover {
   background-size: 100% 1px;
+}
+.product__item-price-box a:hover{
+  background-size: 100% 1px;
+  color: var(--trevlo-base, #FF5956);
+  text-decoration: underline;
 }
 .footer-widget__info li a:hover {
   color: var(--trevlo-base, #FF5956);
