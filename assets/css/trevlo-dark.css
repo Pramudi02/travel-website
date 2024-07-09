@@ -8,8 +8,7 @@
 .why-choose-one,
 .why-choose-one__bg,
 .preloader,
-.main-header__phone-icon::after,
-.topbar-one::after {
+.main-header__phone-icon::after {
   background-color: var(--trevlo-white, #2D2330);
 }
 
@@ -23,7 +22,6 @@
 .search-popup__btn:hover span,
 .main-header__user:hover,
 .main-header__search:hover,
-.topbar-one__social-link:hover,
 .main-menu .main-menu__list > li.current > a,
 .main-menu .main-menu__list > li:hover > a {
   color: var(--trevlo-white, #2D2330);
@@ -86,7 +84,6 @@
 .main-header__phone:hover .main-header__phone-icon span,
 .main-header__user,
 .main-header__search,
-.topbar-one__social-link,
 .trevlo-btn--white-two:hover,
 .footer-widget--newsletter .trevlo-btn,
 .demo-one__btn {
