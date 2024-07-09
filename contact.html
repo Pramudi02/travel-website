@@ -54,18 +54,18 @@
     <!-- /.preloader -->
 
    
-    <header class="main-header sticky-header sticky-header--normal" >
+    <header class="main-header main-header--five sticky-header sticky-header--normal sticky-header--five">
         <div class="container">
             <div class="main-header__inner">
-                <div class="main-header__left">
-                    <div class="main-header__logo">
-                        <a href="index.html">
-                            <img src="assets/images/sura logo/sura_logo.png" alt="Trevlo HTML" width="146">
-                        </a>
-                    </div>
-                <!-- /.main-header__logo -->
-                   <!-- /.main-header__logo -->
-                   <div class="main-header__right">
+                <div class="main-header__logo">
+                    <a href="index.html">
+                        <img src="assets/images/sura logo/sura_logo.png" alt="Trevlo HTML" width="187" class="main-header__logo__1">
+                        <img src="assets/images/sura logo/sura_logo.png" alt="Trevlo HTML" width="187" class="main-header__logo__2">
+                    </a>
+                </div>
+                
+            <!-- /.main-header__logo -->
+                <div class="main-header__right">
                     <nav class="main-header__nav main-menu">
                         <ul class="main-menu__list">
                             <li >
@@ -112,7 +112,7 @@
             </div><!-- /.main-header__inner -->
         </div><!-- /.container-fluid -->
     </header><!-- /.main-header -->
-
+   
         <section class="page-header">
             <div class="page-header__bg" style="background-image: url(assets/images/backgrounds/contact_bg_new.png);"></div>
             <!-- /.page-header__bg -->
@@ -137,7 +137,7 @@
                     <h2 class="sec-title__title">Feel Free to Write us Anytime</h2><!-- /.sec-title__title -->
                 </div><!-- /.sec-title -->
                 <!-- /.sec-title -->
-                <form action="contactForm.php" class="contact-page__form form-one row gutter-20 contact-form-validated" method="post">
+                <form action="send_email.php" class="contact-page__form form-one row gutter-20 contact-form-validated" method="post">
                     <div class="col-md-6 wow animated fadeInUp" data-wow-delay="0s" data-wow-duration="1500ms">
                         <div class="form-one__group">
                             <input type="text" name="name" id="form-one-name-input" placeholder="Your Name" class="form-one__input">
@@ -170,8 +170,7 @@
                         </div><!-- /.form-one__btn-box -->
                     </div><!-- /.col-12-->
                 </form><!-- /.row -->
-                <div class="result"></div><!-- /.result -->
-            </div><!-- /.container -->
+                
 
             <!-- Contact Info Start -->
 <div class="featured-products section-space">

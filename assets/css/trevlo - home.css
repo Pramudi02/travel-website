@@ -7049,6 +7049,7 @@ body.megamenu-popup-active .mobile-nav__content {
   padding: 128px 0 143px;
   z-index: 1;
 }
+
 @media (max-width: 767px) {
   .page-header {
     padding: 100px 0;
@@ -7065,7 +7066,6 @@ body.megamenu-popup-active .mobile-nav__content {
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
-  background-image: url(../images/backgrounds/page-header-bg.jpg);
   opacity: 0.4;
 }
 .page-header .container {
