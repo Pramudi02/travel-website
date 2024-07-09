@@ -5989,7 +5989,6 @@ path {
 }
 
 
-
 .main-menu {
   /* after third level no menu */
 }
@@ -6018,7 +6017,7 @@ path {
   position: relative;
   margin-right: 30px;
 }
-}
+
 .main-menu .main-menu__list > li.dropdown > a {
   position: relative;
 }
