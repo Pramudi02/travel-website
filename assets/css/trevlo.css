@@ -5989,6 +5989,7 @@ path {
 }
 
 
+
 .main-menu {
   /* after third level no menu */
 }
@@ -6006,32 +6007,22 @@ path {
     display: flex;
   }
 }
-
-.main-menu .main-menu__list {
-  
-  margin-right: 150px;
-}
 .main-menu .main-menu__list > li {
   padding-top: 35px;
   padding-bottom: 35px;
   position: relative;
-  margin-right: 30px;
 }
-
 .main-menu .main-menu__list > li.dropdown > a {
   position: relative;
 }
 .main-menu .main-menu__list > li + li {
   margin-left: 38px;
 }
-
-
-
 .main-menu .main-menu__list > li > a {
   font-size: 16px;
   display: flex;
   align-items: center;
-  color: var(--trevlo-secondary, #343335);
+  color: var(--trevlo-secondary, #736D75);
   font-weight: 500;
   text-transform: capitalize;
   position: relative;
