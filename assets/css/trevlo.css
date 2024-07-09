@@ -6,7 +6,6 @@
 # Common
 # Form
 # Custom Cursor
-# Topbar
 # Navigations
 # Home Showcase
 # Animations
@@ -4959,187 +4958,6 @@ path {
   opacity: 0.4;
 }
 
-/*--------------------------------------------------------------
-# Topbar
---------------------------------------------------------------*/
-.topbar-one {
-  position: relative;
-  background-color: var(--trevlo-base, #FF5956);
-  z-index: 1;
-}
-.topbar-one::after {
-  content: "";
-  width: calc(100% - 247px);
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: var(--trevlo-primary, #2D2330);
-  z-index: -1;
-  border-radius: 0 0 10px 0;
-}
-@media (max-width: 991px) {
-  .topbar-one {
-    display: none;
-  }
-}
-.topbar-one .container-fluid {
-  padding-left: 50px;
-  padding-right: 60px;
-}
-.topbar-one__inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 7px;
-  padding-bottom: 7px;
-}
-.topbar-one__left {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: calc(100% - 197px);
-  padding-right: 40px;
-}
-.topbar-one__info {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  align-items: center;
-}
-@media (max-width: 1199px) {
-  .topbar-one__info--right {
-    display: none;
-  }
-}
-.topbar-one__info-item {
-  display: flex;
-  align-items: center;
-}
-.topbar-one__info-item + .topbar-one__info-item {
-  margin-left: 34px;
-}
-.topbar-one__info-icon {
-  font-size: 12px;
-  color: var(--trevlo-base, #FF5956);
-  position: relative;
-  top: 0;
-  margin-right: 3px;
-}
-.topbar-one__info-icon.icon-envelope {
-  top: 1px;
-  margin-right: 4px;
-}
-.topbar-one__info-icon.icon-clock-1 {
-  margin-right: 5px;
-}
-.topbar-one__info-text {
-  font-family: var(--trevlo-font, "DM Sans", sans-serif);
-  font-size: var(--trevlo-size-xl, 14px);
-  color: var(--trevlo-gray, #928496);
-  font-weight: 500;
-  margin-bottom: 0;
-}
-.topbar-one__info a:hover {
-  color: var(--trevlo-base, #FF5956);
-}
-.topbar-one__right {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  width: 100%;
-  max-width: 197px;
-}
-@media (min-width: 992px) {
-  .topbar-one__right {
-    margin-top: 0;
-    margin-left: auto;
-  }
-}
-.topbar-one__social {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  padding: 3.5px 0;
-  padding-left: 30px;
-  margin-left: 30px;
-  line-height: 1em;
-}
-.topbar-one__social-item + .topbar-one__social-item {
-  margin-left: 24px;
-}
-.topbar-one__social-link {
-  font-size: 14px;
-  color: var(--trevlo-white, #ffffff);
-  transition: all 500ms ease;
-}
-.topbar-one__social-link:hover {
-  color: var(--trevlo-primary, #2D2330);
-}
-
-@media (max-width: 1199px) {
-  .topbar-two {
-    display: none;
-  }
-}
-@media (min-width: 1200px) {
-  .topbar-two .container {
-    max-width: 100%;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-}
-@media (min-width: 1600px) {
-  .topbar-two .container {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-}
-@media (min-width: 1800px) {
-  .topbar-two .container {
-    padding-left: 191.5px;
-    padding-right: 191.5px;
-  }
-}
-.topbar-two__inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 20px;
-  padding-bottom: 30px;
-}
-.topbar-two__info {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
-}
-.topbar-two__info-item {
-  display: flex;
-  align-items: center;
-}
-.topbar-two__info-item + .topbar-two__info-item {
-  margin-left: 30px;
-}
-.topbar-two__info-icon {
-  font-size: 16px;
-  color: var(--trevlo-base, #FF5956);
-  position: relative;
-  top: 0;
-  margin-right: 10px;
-}
-.topbar-two__info-text {
-  font-size: var(--trevlo-size-xl, 14px);
-  color: var(--trevlo-gray);
-  font-weight: 500;
-  margin-bottom: 0;
-}
-.topbar-two__info a:hover {
-  color: var(--trevlo-base, #FF5956);
-}
 
 /*--------------------------------------------------------------
 # Navigations
@@ -5914,7 +5732,7 @@ path {
 .sticky-header--cloned.sticky-header--four {
   box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
 }
-.sticky-header--cloned.sticky-header--four .topbar-two,
+.sticky-header--cloned.sticky-header--four,
 .sticky-header--cloned.sticky-header--four .main-header__shape {
   display: none;
 }
@@ -20640,4 +20458,3 @@ body.boxed-wrapper .main-header__booking-btn {
 .tour-type-two__box:hover .tour-type-two__box__back {
   transform: rotateY(0deg);
 }
-/*# sourceMappingURL=trevlo.css.map */
