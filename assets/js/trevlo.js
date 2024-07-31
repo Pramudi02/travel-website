@@ -160,7 +160,14 @@
           $(form).attr("action"),
           $(form).serialize(),
           function (response) {
-            $(form).parent().find(".result").append(response);
+          //1st  $(form).parent().find(".result").append(response); 
+          //2nd  alert(response); 
+
+          var messageElement = document.createElement("div");
+          messageElement.innerText = response;
+          messageElement.className = "response-message";
+          form.parentElement.appendChild(messageElement); // Append the message to the form's parent
+
             $(form).find('input[type="text"]').val("");
             $(form).find('input[type="email"]').val("");
             $(form).find("textarea").val("");
