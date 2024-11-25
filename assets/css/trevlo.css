@@ -11838,6 +11838,8 @@ body.megamenu-popup-active .mobile-nav__content {
   border-radius: 50%;
   transition: all 500ms ease;
 }
+
+
 @media (max-width: 1399px) {
   .tour-listing-five__custom-navs button {
     width: 46px;
